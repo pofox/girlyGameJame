@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 20632022}
   - component: {fileID: 20632021}
   - component: {fileID: 20632020}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player2
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -3310,7 +3310,7 @@ GameObject:
   - component: {fileID: 874025026}
   - component: {fileID: 874025025}
   - component: {fileID: 874025024}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: player
   m_TagString: Player
   m_Icon: {fileID: 0}
