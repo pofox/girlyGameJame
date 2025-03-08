@@ -1,0 +1,34 @@
+{
+    "name": "New Controls",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "b4940bc1-f4ff-4af8-b932-43907ae909b9",
+            "actions": [
+                {
+                    "name": "SwitchPlayer",
+                    "type": "Button",
+                    "id": "8b4ed17f-6000-4439-9ce2-8c965a6824df",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "085664d4-5209-4320-a9cd-315e76366044",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SwitchPlayer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
