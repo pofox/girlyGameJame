@@ -10,7 +10,7 @@ public class SoundManager : MonoBehaviour
     [SerializeField] private AudioSource backgroundMusic;
 
     [Header("Audio Clips")]
-    [SerializeField] private AudioClip shootingClip;
+    [SerializeField] private AudioClip pickUpClip;
 
     [Header("Volume Settings")]
     [Range(0f, 1f)] public float masterVolume = 1f;
@@ -27,13 +27,13 @@ public class SoundManager : MonoBehaviour
         PlayBackgroundMusic();
     }
 
-    public void PlayShootingSound()
+    public void PlayPickUpSound()
     {
-        if (shootingSound != null && shootingClip != null)
+        if (shootingSound != null && pickUpClip != null)
         {
             shootingSound.volume = sfxVolume * masterVolume;
             shootingSound.pitch = Random.Range(0.8f, 1.2f);
-            shootingSound.PlayOneShot(shootingClip);
+            shootingSound.PlayOneShot(pickUpClip);
         }
         else
         {
