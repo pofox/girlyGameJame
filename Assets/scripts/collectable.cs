@@ -13,7 +13,7 @@ public class collectable : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Trigger entered");
+        //Debug.Log("Trigger entered");
         // Check if the object that entered the trigger is the player
         if (collision.gameObject.CompareTag("Player"))
         {
